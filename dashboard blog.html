@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="utf-8">image.png
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="new_landing_page">
+        <title> dashboard</title>
+        <script src="https://cdn.ckeditor.com/4.20.1/standard/ckeditor.js"></script>
+        <link rel="stylesheet" href="Al.css">
+        <style>
+            form{
+                
+                position: absolute;
+                top: 250px;
+                left: 400;
+            }
+            .text2{
+                position: absolute;
+                left:400 ;
+                top: 210px; 
+            }
+            .blog-title{
+                position: absolute;
+                left:400 ;
+                top: 170px; 
+                font-size: 20;
+               
+            }
+
+        </style>
+    </head>
+    <body>
+    <div  class="dashboard" style="background-color: aliceblue;">
+        <div class="dbmenu"> 
+            <a href="dashboard.html">
+                <img class="logo1" src="./letter-g (3).png">
+                <p class="logo_text1"><b>bland</b></p> 
+            </a>
+            <div class="line1">
+                <p class="dbtext">DASHBOARD</p>
+            </div>
+            <div class="line2">
+                <p class="interface">INTERFACE</p>
+               <a href="dashboard-user.html"><P class="bl">BLOG</P></a>
+               <a href="dashboard work.html"><p class="my-work">ADD WORK</p></a>
+               <a href="dashboard blog.html"><p class="user1">ADD BLOG</p></a>
+            </div>
+            <a href="index.html"><p class="logout"><b>logout</b> </p></a>
+        </div>
+        <input type="text" placeholder="search for ..." class="search">
+        <a href="#"></a><img src="./search.png" class="searchimg"></a>
+        <div class="line3"></div>
+        <img src="./notification.png" class="notification">
+        <img src="./chat.png" class="chat">
+        <div class="line4"></div>
+        <p class="account">user account</p>
+        <div class="circle"></div>
+        <p class="dbtext1"><b>add blog </b></p>
+        <p class="blog-title"> title</p>
+        <input type="text" name="text" class="text2">
+        <form>
+            <textarea name="content" rows="5" cols="8" id="editor"></textarea>
+            <input type="submit" value="update">
+        </form>
+        <script>
+            CKEDITOR.replace( 'editor' );
+        </script>
+        
+        
+        
+        
+        
+    </div>
+    
+    </body>
+</html>
